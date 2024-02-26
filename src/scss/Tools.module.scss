@@ -1,0 +1,19 @@
+.tools {
+  flex-grow: 1;
+}
+
+.properties {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.palette {
+  display: flex;
+  flex-wrap: wrap;
+
+  .chip {
+    width: 3rem;
+    height: 3rem;
+  }
+}
